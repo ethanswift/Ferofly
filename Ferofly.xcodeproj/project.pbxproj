@@ -13,6 +13,15 @@
 		C0473071266E319E00BC496A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C047306F266E319E00BC496A /* Main.storyboard */; };
 		C0473073266E31A100BC496A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0473072266E31A100BC496A /* Assets.xcassets */; };
 		C0473076266E31A100BC496A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0473074266E31A100BC496A /* LaunchScreen.storyboard */; };
+		C047307E266E3B3C00BC496A /* customTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047307D266E3B3C00BC496A /* customTabBar.swift */; };
+		C0473080266E3BD100BC496A /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047307F266E3BD100BC496A /* CustomTabBarViewController.swift */; };
+		C0473082266E50B200BC496A /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473081266E50B200BC496A /* OrderDetails.swift */; };
+		C0473084266E50E200BC496A /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473083266E50E200BC496A /* LocationView.swift */; };
+		C0473086266E510900BC496A /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473085266E510900BC496A /* TimelineView.swift */; };
+		C0473088267001C800BC496A /* timelineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0473087267001C800BC496A /* timelineCollectionViewCell.swift */; };
+		C047308A2670DFE000BC496A /* CustomNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04730892670DFE000BC496A /* CustomNavViewController.swift */; };
+		C047308C2670EE3700BC496A /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047308B2670EE3600BC496A /* NewViewController.swift */; };
+		C047308E2671352300BC496A /* OrderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C047308D2671352300BC496A /* OrderCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		C0473072266E31A100BC496A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0473075266E31A100BC496A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0473077266E31A100BC496A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C047307D266E3B3C00BC496A /* customTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTabBar.swift; sourceTree = "<group>"; };
+		C047307F266E3BD100BC496A /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		C0473081266E50B200BC496A /* OrderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
+		C0473083266E50E200BC496A /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		C0473085266E510900BC496A /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		C0473087267001C800BC496A /* timelineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timelineCollectionViewCell.swift; sourceTree = "<group>"; };
+		C04730892670DFE000BC496A /* CustomNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavViewController.swift; sourceTree = "<group>"; };
+		C047308B2670EE3600BC496A /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		C047308D2671352300BC496A /* OrderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +77,16 @@
 				C0473069266E319E00BC496A /* AppDelegate.swift */,
 				C047306B266E319E00BC496A /* SceneDelegate.swift */,
 				C047306D266E319E00BC496A /* ViewController.swift */,
+				C047308B2670EE3600BC496A /* NewViewController.swift */,
+				C047308D2671352300BC496A /* OrderCollectionViewCell.swift */,
+				C0473087267001C800BC496A /* timelineCollectionViewCell.swift */,
+				C0473081266E50B200BC496A /* OrderDetails.swift */,
+				C0473083266E50E200BC496A /* LocationView.swift */,
+				C0473085266E510900BC496A /* TimelineView.swift */,
 				C047306F266E319E00BC496A /* Main.storyboard */,
+				C047307D266E3B3C00BC496A /* customTabBar.swift */,
+				C047307F266E3BD100BC496A /* CustomTabBarViewController.swift */,
+				C04730892670DFE000BC496A /* CustomNavViewController.swift */,
 				C0473072266E31A100BC496A /* Assets.xcassets */,
 				C0473074266E31A100BC496A /* LaunchScreen.storyboard */,
 				C0473077266E31A100BC496A /* Info.plist */,
@@ -138,9 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C047307E266E3B3C00BC496A /* customTabBar.swift in Sources */,
+				C0473082266E50B200BC496A /* OrderDetails.swift in Sources */,
+				C0473080266E3BD100BC496A /* CustomTabBarViewController.swift in Sources */,
 				C047306E266E319E00BC496A /* ViewController.swift in Sources */,
+				C0473084266E50E200BC496A /* LocationView.swift in Sources */,
+				C047308C2670EE3700BC496A /* NewViewController.swift in Sources */,
+				C047308A2670DFE000BC496A /* CustomNavViewController.swift in Sources */,
+				C047308E2671352300BC496A /* OrderCollectionViewCell.swift in Sources */,
+				C0473088267001C800BC496A /* timelineCollectionViewCell.swift in Sources */,
 				C047306A266E319E00BC496A /* AppDelegate.swift in Sources */,
 				C047306C266E319E00BC496A /* SceneDelegate.swift in Sources */,
+				C0473086266E510900BC496A /* TimelineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
